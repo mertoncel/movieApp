@@ -1,4 +1,4 @@
-# Invent.ai Frontend Case Study
+# Movie App
 
 This project is a Single Page Application (SPA) built using React, Redux, RTK Query, and Ant Design. It allows users to search and view details of movies, with features such as pagination, movie details view, and search filters.
 
