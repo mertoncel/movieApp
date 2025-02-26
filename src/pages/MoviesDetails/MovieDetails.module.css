@@ -1,0 +1,63 @@
+.flexWrapper {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 2fr);
+  gap: 20px;
+}
+
+.title h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 24px;
+}
+
+.backButton {
+  padding: 10px 20px;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.backButton:hover {
+  background-color: #9da2ef;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ratingItem {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.ratingItem img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.movieDetailCardLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieDetailCardLeftBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .flexWrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .rating {
+    margin-top: 0;
+  }
+}
